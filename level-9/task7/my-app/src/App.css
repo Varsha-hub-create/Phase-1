@@ -1,0 +1,131 @@
+/* Base resets and font */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  color: #333;
+}
+
+/* Container styles - centered with shadow */
+.prime-container {
+  width: 90%;
+  max-width: 800px;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.prime-container:hover {
+  transform: scale(1.01);
+}
+
+/* Headings and info */
+.prime-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+.prime-info {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* Control panel */
+.control-panel {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.control-panel input[type="number"] {
+  padding: 10px;
+  border: 2px solid #2980b9;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 180px;
+  transition: border-color 0.3s ease;
+}
+.control-panel input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.control-panel button {
+  background: #e74c3c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s;
+}
+.control-panel button:hover {
+  background: #c0392b;
+  transform: translateY(-2px);
+}
+
+/* Prime list styling */
+.prime-list {
+  max-height: 250px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 10px;
+  background: #fdfefe;
+  width: 100%;
+  text-align: center;
+}
+
+.prime-number {
+  display: inline-block;
+  margin: 4px 6px;
+  padding: 4px 8px;
+  background: #ecf0f1;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  transition: background 0.3s ease;
+}
+.prime-number:hover {
+  background: #d0e6f7;
+}
+
+.note {
+  font-style: italic;
+  margin-top: 10px;
+  color: #7f8c8d;
+  text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .prime-container {
+    padding: 20px;
+  }
+
+  .control-panel {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .control-panel input,
+  .control-panel button {
+    width: 100%;
+    max-width: 300px;
+  }
+}

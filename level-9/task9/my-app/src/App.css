@@ -1,0 +1,26 @@
+.list-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: linear-gradient(to right, #093f51, #6ac4f5); /* Fixed here */
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffffff; /* better contrast with gradient background */
+}
+
+.row {
+  padding: 10px 20px;
+  border-bottom: 1px solid #eee;
+  background: #f9fbfd;
+  color: #34495e;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}

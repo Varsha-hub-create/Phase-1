@@ -1,0 +1,163 @@
+
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #1f2937, #111827);
+  color: white;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid #374151;
+  backdrop-filter: blur(10px);
+}
+
+.app-title {
+  font-size: 2rem;
+  color: #06b6d4;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-link {
+  color: #e0f2fe;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #67e8f9;
+}
+
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.home-container {
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  animation: fadeIn 0.5s ease;
+}
+
+.page-title {
+  font-size: 2rem;
+  color: #06b6d4;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  color: #9ca3af;
+}
+
+.action-button {
+  background: #06b6d4;
+  border: none;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.action-button:hover {
+  background: #0891b2;
+  transform: scale(1.05);
+}
+
+.list-container {
+  margin-top: 2rem;
+  border: 1px solid #374151;
+  border-radius: 1rem;
+  background: rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.list-item {
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #374151;
+  transition: background 0.2s ease;
+}
+
+.list-item:hover {
+  background: #374151;
+}
+
+.dashboard-container {
+  max-width: 1000px;
+  width: 100%;
+  animation: fadeIn 0.5s ease;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.user-card {
+  padding: 1.5rem;
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid #374151;
+  border-radius: 1.5rem;
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease;
+}
+
+.user-card:hover {
+  transform: scale(1.05);
+}
+
+.user-name {
+  font-size: 1.2rem;
+  color: #34d399;
+}
+
+.user-email, .user-company {
+  font-size: 0.9rem;
+  color: #9ca3af;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #67e8f9;
+  animation: pulse 1s infinite;
+}
+
+.error {
+  text-align: center;
+  color: #f87171;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
