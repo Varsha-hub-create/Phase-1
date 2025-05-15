@@ -1,0 +1,140 @@
+[{
+  "_id": {
+    "$oid": "67e276cb36b8a01d32b71254"
+  },
+  "name": "J.K. Rowling",
+  "birth_date": {
+    "$date": {
+      "$numberLong": "-139536000000"
+    }
+  },
+  "nationality": "British",
+  "biography": "British author, best known for the Harry Potter series.",
+  "books": []
+},
+{
+  "_id": {
+    "$oid": "67e276cb36b8a01d32b71255"
+  },
+  "name": "George Orwell",
+  "birth_date": {
+    "$date": {
+      "$numberLong": "-2099260800000"
+    }
+  },
+  "nationality": "British",
+  "biography": "Author of 1984 and Animal Farm.",
+  "books": []
+},
+{
+  "_id": {
+    "$oid": "67e276cb36b8a01d32b71256"
+  },
+  "name": "J.R.R. Tolkien",
+  "birth_date": {
+    "$date": {
+      "$numberLong": "-2461276800000"
+    }
+  },
+  "nationality": "British",
+  "biography": "Best known for The Lord of the Rings.",
+  "books": []
+},
+{
+  "_id": {
+    "$oid": "67e276cb36b8a01d32b71257"
+  },
+  "name": "Agatha Christie",
+  "birth_date": {
+    "$date": {
+      "$numberLong": "-2502316800000"
+    }
+  },
+  "nationality": "British",
+  "biography": "Queen of Mystery, creator of Hercule Poirot and Miss Marple.",
+  "books": []
+},
+{
+  "_id": {
+    "$oid": "67e276cb36b8a01d32b71258"
+  },
+  "name": "Harper Lee",
+  "birth_date": {
+    "$date": {
+      "$numberLong": "-1378425600000"
+    }
+  },
+  "nationality": "American",
+  "biography": "Author of 'To Kill a Mockingbird'.",
+  "books": []
+},
+{
+  "_id": {
+    "$oid": "67ef5bd35bec350100e5c6a6"
+  },
+  "name": "J.K. Rowling",
+  "birth_date": {
+    "$date": {
+      "$numberLong": "-139536000000"
+    }
+  },
+  "nationality": "British",
+  "biography": "Author of the Harry Potter series",
+  "books": []
+},
+{
+  "_id": {
+    "$oid": "67ef5bd35bec350100e5c6a7"
+  },
+  "name": "George R.R. Martin",
+  "birth_date": {
+    "$date": {
+      "$numberLong": "-671587200000"
+    }
+  },
+  "nationality": "American",
+  "biography": "Author of A Song of Ice and Fire",
+  "books": []
+},
+{
+  "_id": {
+    "$oid": "67ef5bd35bec350100e5c6a8"
+  },
+  "name": "J.R.R. Tolkien",
+  "birth_date": {
+    "$date": {
+      "$numberLong": "-2461276800000"
+    }
+  },
+  "nationality": "British",
+  "biography": "Author of The Lord of the Rings",
+  "books": []
+},
+{
+  "_id": {
+    "$oid": "67ef5bd35bec350100e5c6a9"
+  },
+  "name": "Suzanne Collins",
+  "birth_date": {
+    "$date": {
+      "$numberLong": "-233366400000"
+    }
+  },
+  "nationality": "American",
+  "biography": "Author of The Hunger Games",
+  "books": []
+},
+{
+  "_id": {
+    "$oid": "67ef5bd35bec350100e5c6aa"
+  },
+  "name": "Dan Brown",
+  "birth_date": {
+    "$date": {
+      "$numberLong": "-174441600000"
+    }
+  },
+  "nationality": "American",
+  "biography": "Author of The Da Vinci Code",
+  "books": []
+}]

@@ -1,0 +1,66 @@
+[{
+  "_id": {
+    "$oid": "67e25a5836b8a01d32b7123b"
+  },
+  "age": 21,
+  "grade": 18,
+  "subject": [
+    "$subject"
+  ],
+  "address": "Bangalore",
+  "firstName": "Varsha",
+  "lastName": "Sakthivel"
+},
+{
+  "_id": {
+    "$oid": "67e25a5836b8a01d32b7123c"
+  },
+  "age": 23,
+  "grade": 17,
+  "subject": [
+    "$subject"
+  ],
+  "address": "Trichy",
+  "firstName": "Nandhu",
+  "lastName": "Aditya"
+},
+{
+  "_id": {
+    "$oid": "67e25a5836b8a01d32b7123d"
+  },
+  "age": 29,
+  "grade": 12,
+  "subject": [
+    "$subject"
+  ],
+  "address": "Chennai",
+  "firstName": "Madhu",
+  "lastName": "Bharathi"
+},
+{
+  "_id": {
+    "$oid": "67e25a5836b8a01d32b7123e"
+  },
+  "age": 15,
+  "grade": 10,
+  "subject": [
+    "$subject"
+  ],
+  "address": "Namakkal",
+  "firstName": "Kalai",
+  "lastName": "Selvaraj",
+  "status": "active"
+},
+{
+  "_id": {
+    "$oid": "67e25a5836b8a01d32b7123f"
+  },
+  "age": 17,
+  "grade": 9,
+  "subject": [
+    "$subject"
+  ],
+  "address": "Salem",
+  "firstName": "sam",
+  "lastName": "Victor"
+}]

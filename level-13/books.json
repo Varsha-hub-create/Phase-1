@@ -1,0 +1,233 @@
+[{
+  "_id": {
+    "$oid": "67e2772936b8a01d32b71259"
+  },
+  "title": "Harry Potter and the Philosopher's Stone",
+  "published_date": {
+    "$date": "1997-06-26T00:00:00.000Z"
+  },
+  "ISBN": "9780747532743",
+  "page_count": 223,
+  "genres": [
+    "Fantasy",
+    "Adventure"
+  ],
+  "publisher": {
+    "name": "Bloomsbury",
+    "location": "UK"
+  },
+  "author_id": {
+    "$oid": "67e2772936b8a01d32b7125a"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e2772936b8a01d32b7125b"
+  },
+  "title": "1984",
+  "published_date": {
+    "$date": {
+      "$numberLong": "-649036800000"
+    }
+  },
+  "ISBN": "9780451524935",
+  "page_count": 328,
+  "genres": [
+    "Dystopian",
+    "Political Fiction"
+  ],
+  "publisher": {
+    "name": "Secker & Warburg",
+    "location": "UK"
+  },
+  "author_id": {
+    "$oid": "67e2772936b8a01d32b7125c"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e2772936b8a01d32b7125d"
+  },
+  "title": "Animal Farm",
+  "published_date": {
+    "$date": {
+      "$numberLong": "-769219200000"
+    }
+  },
+  "ISBN": "9780451526342",
+  "page_count": 112,
+  "genres": [
+    "Satire",
+    "Political Fiction"
+  ],
+  "publisher": {
+    "name": "Secker & Warburg",
+    "location": "UK"
+  },
+  "author_id": {
+    "$oid": "67e2772936b8a01d32b7125e"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e2772936b8a01d32b7125f"
+  },
+  "title": "The Hobbit",
+  "published_date": {
+    "$date": {
+      "$numberLong": "-1018656000000"
+    }
+  },
+  "ISBN": "9780547928227",
+  "page_count": 310,
+  "genres": [
+    "Fantasy",
+    "Adventure"
+  ],
+  "publisher": {
+    "name": "George Allen & Unwin",
+    "location": "UK"
+  },
+  "author_id": {
+    "$oid": "67e2772936b8a01d32b71260"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e2772936b8a01d32b71261"
+  },
+  "title": "The Lord of the Rings",
+  "published_date": {
+    "$date": {
+      "$numberLong": "-486864000000"
+    }
+  },
+  "ISBN": "9780544003415",
+  "page_count": 1178,
+  "genres": [
+    "Fantasy",
+    "Epic"
+  ],
+  "publisher": {
+    "name": "George Allen & Unwin",
+    "location": "UK"
+  },
+  "author_id": {
+    "$oid": "67e2772936b8a01d32b71262"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e2772936b8a01d32b71263"
+  },
+  "title": "Murder on the Orient Express",
+  "published_date": {
+    "$date": {
+      "$numberLong": "-1136073600000"
+    }
+  },
+  "ISBN": "9780007119318",
+  "page_count": 256,
+  "genres": [
+    "Mystery",
+    "Crime"
+  ],
+  "publisher": {
+    "name": "Collins Crime Club",
+    "location": "UK"
+  },
+  "author_id": {
+    "$oid": "67e2772936b8a01d32b71264"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e2772936b8a01d32b71265"
+  },
+  "title": "To Kill a Mockingbird",
+  "published_date": {
+    "$date": {
+      "$numberLong": "-299030400000"
+    }
+  },
+  "ISBN": "9780061120084",
+  "page_count": 281,
+  "genres": [
+    "Classic",
+    "Historical Fiction"
+  ],
+  "publisher": {
+    "name": "J.B. Lippincott & Co.",
+    "location": "USA"
+  },
+  "author_id": {
+    "$oid": "67e2772936b8a01d32b71266"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e2772936b8a01d32b71267"
+  },
+  "title": "The Casual Vacancy",
+  "published_date": {
+    "$date": "2012-09-27T00:00:00.000Z"
+  },
+  "ISBN": "9780316228534",
+  "page_count": 503,
+  "genres": [
+    "Drama"
+  ],
+  "publisher": {
+    "name": "Little, Brown and Company",
+    "location": "UK"
+  },
+  "author_id": {
+    "$oid": "67e2772936b8a01d32b71268"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e2772936b8a01d32b71269"
+  },
+  "title": "Death on the Nile",
+  "published_date": {
+    "$date": {
+      "$numberLong": "-1015113600000"
+    }
+  },
+  "ISBN": "9780007119325",
+  "page_count": 288,
+  "genres": [
+    "Mystery",
+    "Crime"
+  ],
+  "publisher": {
+    "name": "Collins Crime Club",
+    "location": "UK"
+  },
+  "author_id": {
+    "$oid": "67e2772936b8a01d32b7126a"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e2772936b8a01d32b7126b"
+  },
+  "title": "Fantastic Beasts and Where to Find Them",
+  "published_date": {
+    "$date": "2001-03-01T00:00:00.000Z"
+  },
+  "ISBN": "9781338132311",
+  "page_count": 128,
+  "genres": [
+    "Fantasy",
+    "Reference"
+  ],
+  "publisher": {
+    "name": "Bloomsbury",
+    "location": "UK"
+  },
+  "author_id": {
+    "$oid": "67e2772936b8a01d32b7126c"
+  }
+}]

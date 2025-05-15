@@ -1,0 +1,180 @@
+[{
+  "_id": {
+    "$oid": "67e2734336b8a01d32b71240"
+  },
+  "name": "Laptop",
+  "price": 1200,
+  "category": "Electronics",
+  "stock": 10
+},
+{
+  "_id": {
+    "$oid": "67e2734336b8a01d32b71241"
+  },
+  "name": "Smartphone",
+  "price": 800,
+  "category": "Electronics",
+  "stock": 15
+},
+{
+  "_id": {
+    "$oid": "67e2734336b8a01d32b71242"
+  },
+  "name": "Headphones",
+  "price": 150,
+  "category": "Electronics",
+  "stock": 30
+},
+{
+  "_id": {
+    "$oid": "67e2734336b8a01d32b71243"
+  },
+  "name": "Tablet",
+  "price": 600,
+  "category": "Electronics",
+  "stock": 20
+},
+{
+  "_id": {
+    "$oid": "67e2734336b8a01d32b71244"
+  },
+  "name": "Smartwatch",
+  "price": 300,
+  "category": "Electronics",
+  "stock": 25
+},
+{
+  "_id": {
+    "$oid": "67e2734336b8a01d32b71245"
+  },
+  "name": "Gaming Console",
+  "price": 500,
+  "category": "Gaming",
+  "stock": 12
+},
+{
+  "_id": {
+    "$oid": "67e2734336b8a01d32b71246"
+  },
+  "name": "Mechanical Keyboard",
+  "price": 120,
+  "category": "Accessories",
+  "stock": 40
+},
+{
+  "_id": {
+    "$oid": "67e2734336b8a01d32b71247"
+  },
+  "name": "Monitor",
+  "price": 250,
+  "category": "Electronics",
+  "stock": 18
+},
+{
+  "_id": {
+    "$oid": "67e2734336b8a01d32b71248"
+  },
+  "name": "Mouse",
+  "price": 50,
+  "category": "Accessories",
+  "stock": 35
+},
+{
+  "_id": {
+    "$oid": "67e2734336b8a01d32b71249"
+  },
+  "name": "Printer",
+  "price": 200,
+  "category": "Office",
+  "stock": 10
+},
+{
+  "_id": {
+    "$oid": "67e2734336b8a01d32b7124a"
+  },
+  "name": "Desk Lamp",
+  "price": 80,
+  "category": "Home",
+  "stock": 22
+},
+{
+  "_id": {
+    "$oid": "67e2734336b8a01d32b7124b"
+  },
+  "name": "Speakers",
+  "price": 170,
+  "category": "Electronics",
+  "stock": 28
+},
+{
+  "_id": {
+    "$oid": "67e2734336b8a01d32b7124c"
+  },
+  "name": "External HDD",
+  "price": 90,
+  "category": "Storage",
+  "stock": 15
+},
+{
+  "_id": {
+    "$oid": "67e2734336b8a01d32b7124d"
+  },
+  "name": "Power Bank",
+  "price": 60,
+  "category": "Accessories",
+  "stock": 50
+},
+{
+  "_id": {
+    "$oid": "67e2734336b8a01d32b7124e"
+  },
+  "name": "VR Headset",
+  "price": 400,
+  "category": "Gaming",
+  "stock": 5
+},
+{
+  "_id": {
+    "$oid": "67e2734336b8a01d32b7124f"
+  },
+  "name": "Drone",
+  "price": 1000,
+  "category": "Gadgets",
+  "stock": 8
+},
+{
+  "_id": {
+    "$oid": "67e2734336b8a01d32b71250"
+  },
+  "name": "Camera",
+  "price": 900,
+  "category": "Photography",
+  "stock": 10
+},
+{
+  "_id": {
+    "$oid": "67e2734336b8a01d32b71251"
+  },
+  "name": "Tripod",
+  "price": 110,
+  "category": "Photography",
+  "stock": 20
+},
+{
+  "_id": {
+    "$oid": "67e2734336b8a01d32b71252"
+  },
+  "name": "Router",
+  "price": 130,
+  "category": "Networking",
+  "stock": 30
+},
+{
+  "_id": {
+    "$oid": "67e2734336b8a01d32b71253"
+  },
+  "name": "Smart TV",
+  "price": 1500,
+  "category": "Home",
+  "stock": 7
+}]
